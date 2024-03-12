@@ -15,5 +15,5 @@ app.get("/read-content", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`App (PID: ${process.pid} is listening on port ${PORT}`);
+  console.log(`App (PID: ${process.pid}) is listening on port ${PORT}`);
 });
